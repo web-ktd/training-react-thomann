@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar.js';
+import Header from './components/Header/';
 import Product from './components/Product/';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Product />
     </>
   );

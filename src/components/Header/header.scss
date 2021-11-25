@@ -1,0 +1,38 @@
+header {
+
+    .search {
+        @apply w-1/5 rounded-full flex-grow mx-20;
+    
+        &:hover {
+            @apply shadow-md;
+        }
+    }
+
+}
+
+aside {
+    @apply fixed top-0 left-0 bg-white max-h-screen overflow-y-scroll z-50;
+
+    width: 24rem;
+    transform: translateX(-24rem);
+    transition: 0.5s ease-in-out;
+
+    &.aside-show {
+        box-shadow: 10px 0px 10px rgba(125,125,125,0.5);
+        transform: translateX(0);
+        transition: 0.5s ease-in-out;
+    }
+}
+
+.grey-bg {
+    @apply absolute top-0 left-0 w-screen h-screen bg-black opacity-0 z-40;
+
+    transition : 0.5s ease-in-out;
+    visibility: hidden;
+
+    &.grey-bg-show {
+        visibility: visible;
+        opacity: 0.5;
+        transition: 0.5s ease-in-out;
+    }
+}
