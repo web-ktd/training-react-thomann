@@ -1,0 +1,13 @@
+.product-controls {
+
+  .product-similar {
+
+    li {
+      @apply p-2 border-gray-200 border;
+      
+      width: 4rem;
+    }
+
+  }
+
+}
