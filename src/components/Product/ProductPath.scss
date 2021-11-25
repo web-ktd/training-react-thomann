@@ -1,0 +1,33 @@
+ul {
+  @apply flex text-gray-700;
+}
+
+li {
+  @apply block relative inline-flex p-1 mr-1;
+}
+
+.li-btn {
+  @apply h-1/2 w-full absolute bg-gray-200;
+}
+
+.li-btn:hover {
+  @apply bg-gray-300;
+}
+
+li:not(:last-child)::before {
+  content: '';
+  @apply li-btn top-0 transform skew-x-30;
+}
+
+li:not(:last-child)::after {
+  content: '';
+  @apply li-btn top-1/2 transform -skew-x-30;
+}
+
+li:hover {
+  @apply bg-gray-300
+}
+
+li > a {
+  @apply block z-10 pl-2;
+}
