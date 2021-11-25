@@ -5,7 +5,10 @@ import Product from './components/Product/';
 
 function App() {
   return (
-    <Product />
+    <>
+      <Navbar />
+      <Product />
+    </>
   );
 }
 

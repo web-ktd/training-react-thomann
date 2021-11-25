@@ -10,7 +10,7 @@ const HeaderTop = () => {
                     <li><a href="/about" class="px-4">A propos</a></li>
                 </ul>
             </div>
-            <a href="/" className="logo-link" class="flex-grow justify-center">
+            <a href="/" className="logo-link" class="flex flex-grow justify-center">
                 <img src="https://im.static-thomann.de/pics//images/logos/thomann-cyan-black.svg" alt="" class="h-7 transition duration-200 ease-in transform hover:scale-105"/>
             </a>
             <ul class="flex">

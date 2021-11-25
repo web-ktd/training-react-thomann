@@ -3,7 +3,7 @@ import './ProductPath.scss'
 
 const ProductPath = () => {
     return (  
-        <div>
+        <div className="product-path">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/">...</a></li>
